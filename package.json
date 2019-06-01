@@ -1,0 +1,23 @@
+{
+  "name": "spotz-logo",
+  "version": "1.0.0",
+  "description": "The logo of the Spotz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spotzteam/spotz-logo.git"
+  },
+  "keywords": [
+    "spotz",
+    "logo"
+  ],
+  "author": "Till Gartner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spotzteam/spotz-logo/issues"
+  },
+  "homepage": "https://github.com/spotzteam/spotz-logo#readme"
+}
