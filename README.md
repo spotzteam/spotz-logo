@@ -1,6 +1,6 @@
 # spotz-logo
 
-![spotz](logos/spotz-logo.png)
+![spotz](logos/apple-touch-startup-image-320x460.png)
 
 The logo of the spotz
 
