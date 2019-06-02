@@ -1,6 +1,5 @@
 {
 	"name": "build-spotz-logo",
-	"version": "1.0.2",
 	"private": true,
 	"dependencies": {
 		"convert-svg-to-png": "0.5.0",
