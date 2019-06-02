@@ -4,7 +4,8 @@
 	"description": "The logo of the spotz",
 	"main": "build.js",
 	"scripts": {
-		"start": "cd build-spotz-logo && npm run build"
+		"start": "cd build-spotz-logo && npm run build",
+		"build": "npm version patch -m 'Generate a new random logo' && cd build-spotz-logos && npm run build-logo && npm run extract-logo && npm run build-favicons"
 	},
 	"repository": {
 		"type": "git",

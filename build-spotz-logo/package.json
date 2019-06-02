@@ -17,8 +17,7 @@
 		"start": "react-scripts start",
 		"build-logo": "react-scripts build && react-snapshot",
 		"extract-logo": "node extract-logo.js",
-		"build-favicons": "node build-favicons.js",
-		"build": "npm version patch -m 'Generate a new random logo' && npm run build-logo && npm run extract-logo && npm run build-favicons"
+		"build-favicons": "node build-favicons.js"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
