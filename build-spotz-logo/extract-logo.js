@@ -17,10 +17,11 @@ const root = parse(index);
 
 // Extract the svg
 const svgElement = root.querySelector('svg');
-console.log('svg: ', svgElement.toString());
+//console.log('svg: ', svgElement.toString());
 
 // Save the svg
 fs.writeFileSync(SVG_FILE, svgElement.toString());
 
 // Transfor the svg in png
-convertFile(SVG_FILE);
+const convertOptions = { height: 2000 };
+convertFile(SVG_FILE, convertOptions);
