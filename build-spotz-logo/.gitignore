@@ -1,0 +1,2 @@
+# Our .env file contains the secret auth0 key, so it's notvg supposed to be in github
+.env 
