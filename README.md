@@ -31,6 +31,12 @@ The easiest way to do this is with a `postinstall` script within your `package.j
 }
 ```
 
+This way, when running `npm install` all therequired files are copied into your project.
+
+**Note** The files are only copied when you run `npm install`! Running `npom install package-xyz` does **not** execute the `postinstall` script!
+
+If you are using a React application that has been created with `create-react-app` there is not much to do: The `index.html` references a `manifest.json` that is overwritten by the copied directory. And the new `manifest.json` references all the different versions and sizes of the Spotz Logo.
+
 ## The inner working
 
 In order to produce the logo a series of steps are performed:
